@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Appium generated files
+appium.log
+appium-debug.log
+
+# Report files
+allure-report/
+allure-results/
+
+#logs of VS code
+.vscode

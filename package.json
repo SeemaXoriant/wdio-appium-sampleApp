@@ -1,0 +1,29 @@
+{
+  "name": "wdioappiumsampleApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio:android": "npx wdio wdio.conf.js android",
+    "wdio:ios": "npx wdio wdio.conf.js ios",
+    "allure:report": "npx allure generate allure-results --clean && npx allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/cli": "^9.0.9",
+    "@wdio/cucumber-framework": "^9.0.8",
+    "@wdio/local-runner": "^9.0.9",
+    "@wdio/visual-service": "^6.0.0",
+    "appium-uiautomator2-driver": "^3.8.0"
+  },
+  "dependencies": {
+    "@wdio/allure-reporter": "^9.0.8",
+    "@wdio/appium-service": "^9.0.9",
+    "allure-commandline": "^2.30.0",
+    "webdriverio": "^9.0.9"
+  }
+}
