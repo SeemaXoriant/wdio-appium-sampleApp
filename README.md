@@ -33,11 +33,11 @@ To use this application please follow below steps:
 
 
 Project Structure:
-test\specs/: Contains Cucumber feature files that describe the scenarios.
-features\step-definitions/: Contains step definitions for the Cucumber scenarios.
-features\pageobjects : contains classes that represents pages of application 
-wdio.conf.js: Based on argument passed for platform combine shared  configuration and platform specific configuration for WebdriverIO
-wdio.android.conf.js : Android platform specific configuration file
-wdio.ios.config.js : iOS platform specific configuration file
-wdio.shared.conf.js : Common configuration file for WebdriverIO
-package.json: Contains project dependencies and scripts.
+1. test\specs/: Contains Cucumber feature files that describe the scenarios.
+2. features\step-definitions/: Contains step definitions for the Cucumber scenarios.
+3. features\pageobjects : contains classes that represents pages of application 
+4. wdio.conf.js: Based on argument passed for platform combine shared  configuration and platform specific configuration for WebdriverIO
+5. wdio.android.conf.js : Android platform specific configuration file
+6. wdio.ios.config.js : iOS platform specific configuration file
+7. wdio.shared.conf.js : Common configuration file for WebdriverIO
+8. package.json: Contains project dependencies and scripts.
